@@ -47,7 +47,7 @@ const Page = () => {
 			<section className="h-[100vh]">
 				<div className="flex items-center justify-center h-full w-full flex-col">
 					<img
-						src="../../assets/images/logo-dark.svg"
+						src="/static/images/logo-dark.svg"
 						className="mx-auto"
 						width={250}
 						alt="The Paths logo"
@@ -106,7 +106,7 @@ const Page = () => {
 								crowd and put your best foot forwards.
 							</div>
 							<img
-								src="../../assets/images/baggage.png"
+								src="/static/images/baggage.png"
 								alt="Showcase your talent."
 								width={400}
 								className={
@@ -137,7 +137,7 @@ const Page = () => {
 								Your whole journey is important not just the end result.
 							</div>
 							<img
-								src="../../assets/images/astronaut.png"
+								src="static/images/astronaut.png"
 								alt="Showcase your talent."
 								width={400}
 								className={
@@ -168,7 +168,7 @@ const Page = () => {
 								<br />
 							</div>
 							<img
-								src="../../assets/images/dc.png"
+								src="/static/images/dc.png"
 								alt="Showcase your talent."
 								width={400}
 								className={
@@ -219,13 +219,13 @@ const Page = () => {
 							<div className="sm:px-6 lg:px-0 sm:flex sm:justify-center">
 								<div className="flex mx-auto max-w-2xl sm:mx-0 sm:max-w-none gap-7 justify-center">
 									<img
-										src="../assets/images/iphones (1).svg"
+										src={"/static/images/iPhones (1).svg"}
 										alt="Product screenshot"
 										width={300}
 										className="max-w-none drop-shadow-md w-[35%] md:w-[40%] lg:w-[50%] xl:w-[50%]"
 									/>
 									<img
-										src="../assets/images/iphones (2).svg"
+										src="/static/images/iPhones (2).svg"
 										alt="Product screenshot"
 										width={300}
 										className="max-w-none drop-shadow-md w-[35%] md:w-[40%] lg:w-[50%] xl:w-[50%]"
@@ -278,7 +278,7 @@ const Page = () => {
 							<div className="sm:px-6 lg:px-0">
 								<div className="flex mx-auto max-w-2xl sm:mx-0 sm:max-w-none gap-7 pb-12">
 									<img
-										src="../assets/images/iphones (3).svg"
+										src="/static/images/iPhones (3).svg"
 										alt="Product screenshot"
 										width={300}
 										className="max-w-none drop-shadow-xl mx-auto w-[35%] md:w-[40%] lg:w-[50%] xl:w-[50%]"
@@ -328,13 +328,13 @@ const Page = () => {
 							<div className="sm:px-6 lg:px-0 flex items-center justify-center">
 								<div className="flex mx-auto max-w-2xl sm:mx-0 sm:max-w-none gap-7 justify-center">
 									<img
-										src="../assets/images/iphones (4).svg"
+										src="/static/images/iPhones (4).svg"
 										alt="Product screenshot"
 										width={300}
 										className="max-w-none drop-shadow-md w-[35%] md:w-[40%] lg:w-[50%] xl:w-[50%]"
 									/>
 									<img
-										src="../assets/images/iphones (5).svg"
+										src="/static/images/iPhones (5).svg"
 										alt="Product screenshot"
 										width={300}
 										className="max-w-none drop-shadow-md w-[35%] md:w-[40%] lg:w-[50%] xl:w-[50%]"
