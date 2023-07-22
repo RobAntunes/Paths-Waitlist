@@ -1,5 +1,5 @@
 import React from "react";
-import gsap from "gsap";
+import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import SignupForm from "./SignupForm";
 
@@ -80,7 +80,9 @@ const Page = () => {
 
 			<section className="h-[50vh] w-[75%] mx-auto flex items-center font text-xl">
 				<div className="mx-auto">
-					<h2 className="text-4xl md:text-5xl lg:text-6xl font-bold">Not another job board.</h2>
+					<h2 className="text-4xl md:text-5xl lg:text-6xl font-bold">
+						Not another job board.
+					</h2>
 				</div>
 			</section>
 
@@ -107,7 +109,9 @@ const Page = () => {
 								src="../../assets/images/baggage.png"
 								alt="Showcase your talent."
 								width={400}
-								className={"absolute lg:-right-32 sm:right-20 -bottom-14 w-[60%] sm:w-1/2"}
+								className={
+									"absolute lg:-right-32 sm:right-20 -bottom-14 w-[60%] sm:w-1/2"
+								}
 							/>
 							<div className="col-start-3 bg-gradient-to-br from-[#2942C9] to-[#AF3577] p-14 rounded-b-xl lg:rounded-r-xl lg:rounded-bl-none" />
 						</div>
@@ -326,17 +330,13 @@ const Page = () => {
 									<img
 										src="../assets/images/iphones (4).svg"
 										alt="Product screenshot"
-										width={
-											300
-										}
+										width={300}
 										className="max-w-none drop-shadow-md w-[35%] md:w-[40%] lg:w-[50%] xl:w-[50%]"
 									/>
 									<img
 										src="../assets/images/iphones (5).svg"
 										alt="Product screenshot"
-										width={
-											300
-										}
+										width={300}
 										className="max-w-none drop-shadow-md w-[35%] md:w-[40%] lg:w-[50%] xl:w-[50%]"
 									/>
 								</div>
