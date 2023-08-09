@@ -295,7 +295,7 @@ const Page = () => {
         </div>
       </section>
 
-      <section className="xl:h-[100vh] bg-white w-full mx-auto mt-24">
+      <section className="xl:h-[100vh] bg-white w-full mx-auto">
         <div className="overflow-hidden mx-auto">
           <div className="mx-auto max-w-7xl md:px-6 lg:px-8">
             <div className="grid grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:grid-cols-2">
